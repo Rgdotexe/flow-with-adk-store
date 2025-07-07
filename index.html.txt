@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLOW WITH ADK - E-Store</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #0a0a0a; color: white; }
+    header { background-color: #111; padding: 20px; text-align: center; }
+    header img { max-height: 80px; }
+    h1 { margin: 0; font-size: 28px; letter-spacing: 2px; }
+    .tagline { font-size: 14px; color: #aaa; }
+    .container { padding: 20px; }
+    .product { background: #1a1a1a; padding: 15px; margin-bottom: 20px; border-radius: 10px; }
+    .product img { max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px; }
+    .product h2 { margin: 0 0 10px; color: #e0e0e0; }
+    .price { font-weight: bold; color: #00e676; }
+    .btn { background: #00e676; color: black; padding: 8px 12px; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; }
+    .flavor-list { font-size: 14px; margin-top: 10px; color: #ccc; }
+    footer { text-align: center; padding: 20px; color: #666; font-size: 12px; }
+    .contact-info { background-color: #1a1a1a; padding: 15px; margin: 20px; border-radius: 10px; }
+    .contact-info h3 { color: #00e676; margin-bottom: 10px; }
+    .contact-info p, .contact-info a { color: #ccc; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="/mnt/data/550bfd65-712d-4461-be44-296666b497d4.png" alt="Flow With ADK Logo">
+  <h1>FLOW WITH ADK</h1>
+  <p class="tagline">E-STORE SINCE 2024</p>
+</header>
+
+<div class="container">
+
+  <div class="product">
+    <img src="https://via.placeholder.com/400x250.png?text=Votlbar+Full+Kit" alt="Votlbar Full Kit">
+    <h2>Votlbar Full Kit (Any Flavor)</h2>
+    <p class="price">2000 BDT</p>
+    <p class="flavor-list">
+      Available Flavors: Blackcurrant lychee, Mint chewing gum, Honey dew ice cream, Mix fruit,
+      Watermelon bubblegum, Watermelon lychee, Grape bubblegum, Blackcurrant honeydew, Hazelnut coffee,
+      Cappuccino, Honeydew, Energy drink, Pink guava, Strawberry ice cream, Sakura grape,
+      Strawberry ice, Paper mint, Mango watermelon
+    </p>
+    <a class="btn" href="#order">Order Now</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/400x250.png?text=Elfbar+Snap+Smart+Kit" alt="Elfbar Snap Smart Kit">
+    <h2>Elfbar Snap Smart Kit</h2>
+    <p class="price">1900 BDT</p>
+    <a class="btn" href="#order">Order Now</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/400x250.png?text=Elfbar+BC+5000" alt="Elfbar BC 5000">
+    <h2>Elfbar BC 5000</h2>
+    <p class="price">1000 BDT</p>
+    <a class="btn" href="#order">Order Now</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/400x250.png?text=Bang+BC+5000" alt="Bang BC 5000">
+    <h2>Bang BC 5000</h2>
+    <p class="price">1000 BDT</p>
+    <a class="btn" href="#order">Order Now</a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/400x250.png?text=That+That+Full+Kit" alt="That That Full Kit">
+    <h2>That That Full Kit</h2>
+    <p class="price">1600 BDT</p>
+    <a class="btn" href="#order">Order Now</a>
+  </div>
+
+  <!-- Add more products here using the same structure -->
+
+  <div class="contact-info">
+    <h3>Payment & Contact Info</h3>
+    <p><strong>bKash Number:</strong> 01759456740</p>
+    <p><strong>Payment Name:</strong> Flow with ADK or Roni Hasan</p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/flowwithadk" target="_blank">facebook.com/flowwithadk</a></p>
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/flow_with_adk.offical/" target="_blank">@flow_with_adk.offical</a></p>
+    <p><strong>Phone Numbers:</strong> 01759456740, 01846020702</p>
+  </div>
+
+</div>
+
+<footer>
+  You can add or edit products anytime. This is just a mockup layout. Contact via bKash to complete your order.
+</footer>
+
+</body>
+</html>
